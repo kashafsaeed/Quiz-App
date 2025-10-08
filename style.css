@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+     background-image: url(images/fractal-1280076_1280.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: animate 20s linear infinite;
+    background-attachment: fixed;
+    background-position: center;
+}
+.container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+   
+}
