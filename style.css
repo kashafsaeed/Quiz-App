@@ -2,26 +2,76 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family:  "Ancizar Sans", sans-serif;
 }
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-     background-image: url(images/fractal-1280076_1280.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    animation: animate 20s linear infinite;
-    background-attachment: fixed;
-    background-position: center;
+    background-image: linear-gradient(to top, #30cfd0 0%, #2e055f 100%);
 }
-.container {
-    position: relative;
-    width: 500px;
-    height: 500px;
-    border-radius: 10px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
+.main-container {
+    height: 50vh;
+    width: 40%;
+    background: linear-gradient(to top, #45b4d2, #102540);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #102540 ;
+    
    
+}
+.sec-child {
+    text-align: center;
+    justify-content: center;
+    height: 50vh;
+    padding: 30px;
+    width: 100%;
+    
+}
+.third-child {
+   
+}
+.heading {
+    font-size: 2rem;
+    color: rgb(188, 205, 205);
+    padding: 40px;
+    flex-wrap: nowrap;
+    
+}
+#btn {
+    padding: 17px;
+    border-radius: 30px;
+    border: none;
+    font-size: 28px;
+    font-weight: 700;
+    justify-content: center;
+}
+#btn:hover {
+    background: linear-gradient( #30cfd0, #102540);
+    color: azure;
+    cursor: pointer;
+      transform: translateY(-3px);
+
+}
+
+
+@media (max-width: 480px)  {
+    .main-container {
+        flex-wrap: nowrap;
+        width: 80%;
+        height: auto;
+    }
+    
+    .heading {
+
+        font-size: 1.75em;
+    }
+    #btn {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    
+
+    
 }
