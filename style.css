@@ -10,33 +10,34 @@ body {
 
 }
 .container {
-    width:350px;
+    width: 350px;
     background: linear-gradient(to top, #45b4d2, #102540);
     border-radius: 20px;
     box-shadow: 5px 5px 10px #102540 ;
     padding: 30px;
     text-align: center;
+
+
     
    
 }
 
-
-.heading {
+.h2 {
     font-size: 2rem;
     color: rgb(188, 205, 205);
-    flex-wrap: nowrap;
     margin-bottom: 20px;
     
 }
-#btn {
-    padding: 17px;
+button {
+    padding: 10px 20px;
     border-radius: 30px;
     border: none;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 700;
     justify-content: center;
+    
 }
-#btn:hover {
+button:hover {
     background: linear-gradient( #30cfd0, #102540);
     color: azure;
     cursor: pointer;
@@ -44,7 +45,7 @@ body {
 
 }
 
-
+/* 
 @media (max-width: 480px)  {
     .main-container {
         flex-wrap: nowrap;
@@ -64,33 +65,6 @@ body {
     
 
     
-}
+} */
 
 
-
-
-.container {
-    height: auto;
-    width: 80vw;
-    background: linear-gradient(to top, #45b4d2, #102540);
-    border-radius: 20px;
-    box-shadow: 5px 5px 10px #102540 ;
-    
-}
-
-.sec-inner {
-    width: 80vw;
-    height: auto;
-    background-color: coral;
-
-}
-h1 {
-    font-size: 2rem;
-    color: rgb(196, 215, 215);
-}
-#next-btn {
-    padding: 10px 20px;
-    font-size: 1.5rem;
-    border: none;
-    border-radius: 25px;
-}
