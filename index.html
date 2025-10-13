@@ -1,34 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz-App</title>
     <link rel="stylesheet" href="style.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cabin:ital,wght@0,400..700;1,400..700&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Monsieur+La+Doulaise&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cabin:ital,wght@0,400..700;1,400..700&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Monsieur+La+Doulaise&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-   
+
 
     <div class="container" id="start-box">
-             <h2>JavaScript Quiz</h2>
-            <button id="start-btn" onclick="button()">Quiz Start</button>
-         </div>
-     
-
-
-
-    <div class="container hidden">
-       <div class="info">
-      Time Left: <span id="timer">15</span> min | Questions Left: <span id="remaining"></span>
+        <h2>Welcome to the Quiz!</h2>
+        <button id="start-btn" onclick="button()">Start Quiz</button>
     </div>
-    <div id="Questions-container">
-        <h3 id="question"></h3>
-        <div id="options"></div>
-    </div>
-    <button id="next-btn">Next</button>
+
+    <div class="container hidden" id="quiz-box">
+        <div class="info">
+            Time Left: <span id="timer">15</span> min | Questions Left: <span id="remaining"></span>
+        </div>
+        <div id="Questions-container">
+            <h2 id="question"></h2>
+            <div id="options"></div>
+        </div>
+        <button id="next-btn">Next</button>
     </div>
 
     <div class="container hidden" id="result-box">
@@ -40,4 +41,5 @@
 
     <script src="app.js"></script>
 </body>
+
 </html>
