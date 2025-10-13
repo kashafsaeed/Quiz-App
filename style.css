@@ -50,6 +50,24 @@ button:hover {
     display: none;
 }
 
+option{
+    border: none;
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin:  5px 0px;
+    transition: 0.3s;
+}
+option:hover {
+    background-color: cadetblue;
+}
+.info {
+     margin-bottom: 10px;
+      font-weight: bold;
+
+}
+
 /* 
 @media (max-width: 480px)  {
     .main-container {
