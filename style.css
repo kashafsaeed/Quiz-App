@@ -68,26 +68,5 @@ option:hover {
 
 }
 
-/* 
-@media (max-width: 480px)  {
-    .main-container {
-        flex-wrap: nowrap;
-        width: 80%;
-        height: auto;
-    }
-    
-    .heading {
-
-        font-size: 1.75em;
-    }
-    #btn {
-        padding: 10px;
-        font-size: 20px;
-    }
-
-    
-
-    
-} */
 
 
