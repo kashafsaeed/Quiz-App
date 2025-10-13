@@ -22,7 +22,7 @@ body {
    
 }
 
-.h2 {
+.container h2{
     font-size: 2rem;
     color: rgb(188, 205, 205);
     margin-bottom: 20px;
@@ -31,18 +31,23 @@ body {
 button {
     padding: 10px 20px;
     border-radius: 30px;
+    color: azure;
     border: none;
     font-size: 24px;
     font-weight: 700;
     justify-content: center;
+    background: linear-gradient( #30cfd0, #102540);
+
     
 }
 button:hover {
-    background: linear-gradient( #30cfd0, #102540);
-    color: azure;
     cursor: pointer;
-      transform: translateY(-3px);
+    color: #000;
+    background-color: #203f47;
 
+}
+.hidden {
+    display: none;
 }
 
 /* 
