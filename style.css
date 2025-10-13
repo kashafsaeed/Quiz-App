@@ -75,3 +75,32 @@ body {
 
     
 }
+
+
+
+
+.main-inner-container {
+    height: auto;
+    width: 80vw;
+    background: linear-gradient(to top, #45b4d2, #102540);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #102540 ;
+    
+}
+
+.sec-inner {
+    width: 80vw;
+    height: auto;
+    background-color: coral;
+
+}
+h1 {
+    font-size: 2rem;
+    color: rgb(196, 215, 215);
+}
+.next-btn {
+    padding: 15px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 25px;
+}
